@@ -1,0 +1,26 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Dependency management
+renv/library/
+renv/python/
+
+# Data artifacts
+data/derived/
+data/processed/
+data/temp/
+
+# Reports and rendered documents
+*.html
+*.pdf
+*.docx
+*.pptx
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

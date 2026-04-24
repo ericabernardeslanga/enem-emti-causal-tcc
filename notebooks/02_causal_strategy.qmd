@@ -1,0 +1,8 @@
+---
+title: "Estrategia Causal"
+format: html
+---
+
+## Objetivo
+
+Documentar a logica de identificacao, premissas e especificacoes a serem testadas.

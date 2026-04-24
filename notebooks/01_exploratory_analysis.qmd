@@ -1,0 +1,8 @@
+---
+title: "Analise Exploratória Inicial"
+format: html
+---
+
+## Objetivo
+
+Registrar primeiras inspecoes sobre cobertura, distribuicoes e qualidade dos dados.
