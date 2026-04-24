@@ -101,10 +101,10 @@ O desenvolvimento segue uma abordagem em etapas, evoluindo desde a compreensão 
 - criação de variáveis de interesse, como indicador de adoção do EMTI;
 - integração de variáveis socioeconômicas e educacionais.
 
-### 3. Analise exploratória e visualização
+### 3. Análise exploratória e visualização
 
 - construção de gráficos com `ggplot2`;
-- analise de tendencias temporais;
+- análise de tendências temporais;
 - comparações entre grupos, como municípios com e sem EMTI;
 - avaliação preliminar de possíveis efeitos.
 
@@ -130,13 +130,9 @@ Essa abordagem combinada busca aumentar a robustez das inferências, mitigar vie
 ## Ferramentas do projeto
 
 - R
-- tidyverse
-- fixest
-- MatchIt
-- Quarto
 - Git e GitHub
 
-## Boas praticas para este repositório
+## Boas práticas para este repositório
 
 - manter `data/raw/` apenas para dados originais sem edição manual;
 - salvar scripts numerados na ordem do pipeline;
@@ -149,9 +145,9 @@ Essa abordagem combinada busca aumentar a robustez das inferências, mitigar vie
 
 - preencher `docs/project_scope.md` com o recorte final do TCC;
 - confirmar quais bases serão usadas além do ENEM e do EMTI;
-- decidir a unidade de analise: aluno, escola, município ou estado;
+- decidir a unidade de análise: aluno, escola, município ou estado;
 - detalhar a estratégia causal principal em `docs/research_design.md`;
-- iniciar o inventario dos dados no script `scripts/01_data_inventory.R`.
+- iniciar o inventário dos dados no script `scripts/01_data_inventory.R`.
 
 
 
@@ -160,6 +156,6 @@ Essa abordagem combinada busca aumentar a robustez das inferências, mitigar vie
 Ao final, este repositório deve funcionar ao mesmo tempo como:
 
 - base técnica e teórica;
-- trilha documentada de aprendizado em analise causal;
+- trilha documentada de aprendizado em análise causal;
 - portfolio profissional em ciência de dados aplicada a educação;
 - vitrine de um projeto completo de pesquisa com dados públicos.
