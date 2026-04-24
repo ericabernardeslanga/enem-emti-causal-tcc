@@ -1,32 +1,32 @@
 # TCC: Analise Causal com Dados do ENEM e do EMTI
 
-> Projeto de pesquisa aplicada em ciencia de dados com foco em inferencia causal e avaliacao de politicas publicas educacionais.
+> Projeto de pesquisa aplicada em ciência de dados com foco em inferência causal e avaliação de politicas publicas educacionais.
 
 ## Sobre o projeto
 
-Este repositorio organiza um projeto de conclusao de curso com foco em analise causal aplicada a dados publicos do ENEM e do Ensino Medio em Tempo Integral (EMTI), utilizando R.
+Este repositório organiza um projeto de conclusão de curso com foco em analise causal aplicada a dados públicos do ENEM e do Ensino Médio em Tempo Integral (EMTI), utilizando R.
 
 O projeto busca integrar:
 
-- fundamentacao teorica em avaliacao de politicas publicas e inferencia causal;
+- fundamentação teórica em avaliação de politicas publicas e inferência causal;
 - pratica aplicada com bases publicas educacionais;
-- aplicacao da linguagem R e uso do GitHub para reproducibilidade;
-- desenvolvimento de um projeto final com valor academico e profissional.
+- aplicação da linguagem R e uso do GitHub para reprodutibilidade;
+- desenvolvimento de um projeto final com valor acadêmico e profissional.
 
 ## Pergunta central
 
-Como a expansao ou participacao no Ensino Medio em Tempo Integral se relaciona com resultados educacionais observados no ENEM, considerando estrategias de identificacao causal e o uso de dados publicos?
+Como a expansão ou participação no Ensino Médio em Tempo Integral se relaciona com resultados educacionais observados no ENEM, considerando estratégias de identificação causal e o uso de dados públicos?
 
 ## Objetivos do projeto
 
-- organizar e documentar um pipeline de pesquisa reproduzivel;
+- organizar e documentar um pipeline de pesquisa reproduzível;
 - integrar bases de dados relevantes para o problema;
-- construir variaveis de tratamento, controles e desfechos;
-- aplicar estrategias de analise causal apropriadas;
-- produzir tabelas, graficos e texto final para o TCC;
-- manter um repositorio apresentavel no GitHub.
+- construir variáveis de tratamento, controles e desfechos;
+- aplicar estratégias de analise causal apropriadas;
+- produzir tabelas, gráficos e texto final para o TCC;
+- manter um repositório apresentável no GitHub.
 
-## Estrutura do repositorio
+## Estrutura do repositório
 
 ```text
 .
@@ -74,58 +74,58 @@ Como a expansao ou participacao no Ensino Medio em Tempo Integral se relaciona c
 
 ## Fluxo de trabalho
 
-1. Mapear as bases disponiveis e documentar cobertura, nivel de agregacao e periodo.
+1. Mapear as bases disponíveis e documentar cobertura, nível de agregação e período.
 2. Definir claramente o tratamento relacionado ao EMTI.
-3. Construir a base analitica com regras transparentes de limpeza e integracao.
+3. Construir a base analítica com regras transparentes de limpeza e integração.
 4. Explorar o dado e verificar qualidade, missing e comparabilidade.
-5. Aplicar a estrategia causal escolhida.
+5. Aplicar a estratégia causal escolhida.
 6. Produzir resultados para o TCC e para portfolio.
 
-## Estrategias para analise
+## Estratégias para analise
 
-A estrategia analitica deste projeto foi estruturada de forma incremental, combinando fundamentos estatisticos, exploracao de dados e metodos de inferencia causal aplicados a dados educacionais, especialmente ENEM, Censo Escolar e bases complementares.
+A estratégia analítica deste projeto foi estruturada de forma incremental, combinando fundamentos estatísticos, exploração de dados e métodos de inferência causal aplicados a dados educacionais, especialmente ENEM, Censo Escolar e bases complementares.
 
-O desenvolvimento segue uma abordagem em etapas, evoluindo desde a compreensao dos dados ate a estimacao de efeitos causais e a validacao dos resultados.
+O desenvolvimento segue uma abordagem em etapas, evoluindo desde a compreensão dos dados ate a estimação de efeitos causais e a validação dos resultados.
 
-### 1. Fundamentacao estatistica e exploracao inicial
+### 1. Fundamentação estatística e exploração inicial
 
-- revisao de estatistica descritiva, incluindo media, variancia e distribuicao;
-- simulacoes para compreensao de variabilidade e distribuicao dos dados;
-- analise exploratoria inicial das bases do ENEM e do Censo Escolar;
-- identificacao de padroes, outliers e possiveis vieses.
+- revisão de estatística descritiva, incluindo media, variância e distribuição;
+- simulações para compreensão de variabilidade e distribuição dos dados;
+- analise exploratória inicial das bases do ENEM e do Censo Escolar;
+- identificação de padrões, outliers e possíveis vieses.
 
-### 2. Preparacao e integracao dos dados
+### 2. Preparação e integração dos dados
 
-- tratamento e padronizacao de bases publicas como ENEM, Censo Escolar, Atlas Brasil e IBGE;
-- construcao de um painel municipal-ano;
-- criacao de variaveis de interesse, como indicador de adocao do EMTI;
-- integracao de variaveis socioeconomicas e educacionais.
+- tratamento e padronização de bases publicas como ENEM, Censo Escolar, Atlas Brasil e IBGE;
+- construção de um painel municipal ano;
+- criação de variáveis de interesse, como indicador de adoção do EMTI;
+- integração de variáveis socioeconômicas e educacionais.
 
-### 3. Analise exploratoria e visualizacao
+### 3. Analise exploratória e visualização
 
-- construcao de graficos com `ggplot2`;
+- construção de gráficos com `ggplot2`;
 - analise de tendencias temporais;
-- comparacoes entre grupos, como municipios com e sem EMTI;
-- avaliacao preliminar de possiveis efeitos.
+- comparações entre grupos, como municípios com e sem EMTI;
+- avaliação preliminar de possíveis efeitos.
 
-### 4. Estrategias de inferencia causal
+### 4. Estratégias de inferência causal
 
 Para estimar o impacto do EMTI sobre resultados educacionais, o projeto considera as seguintes abordagens:
 
-- Diferencas-em-Diferencas (DiD): comparacao da evolucao dos indicadores entre grupos tratados e de controle ao longo do tempo.
-- Estudo de eventos (Event Study): avaliacao dinamica do efeito do EMTI antes e depois da implementacao.
-- Propensity Score Matching (PSM): pareamento de unidades comparaveis para reduzir vies de selecao.
-- Regressao com controles observaveis: inclusao de variaveis socioeconomicas e educacionais para ajuste dos modelos.
-- Modelos com efeitos fixos: controle de heterogeneidade nao observada fixa no tempo, por municipio e por ano.
+- Diferenças-em Diferenças (DiD): comparação da evolução dos indicadores entre grupos tratados e de controle ao longo do tempo.
+- Estudo de eventos (Event Study): avaliação dinâmica do efeito do EMTI antes e depois da implementação.
+- Propensity Score Matching (PSM): pareamento de unidades comparáveis para reduzir viés de seleção.
+- Regressão com controles observáveis: inclusão de variáveis socioeconômicas e educacionais para ajuste dos modelos.
+- Modelos com efeitos fixos: controle de heterogeneidade nao observada fixa no tempo, por município e por ano.
 
-### 5. Validacao e robustez
+### 5. Validação e robustez
 
-- testes de hipotese e analise de sensibilidade;
-- verificacao da hipotese de tendencias paralelas nos modelos DiD;
+- testes de hipótese e analise de sensibilidade;
+- verificação da hipótese de tendencias paralelas nos modelos DiD;
 - testes placebo;
-- comparacao entre especificacoes alternativas.
+- comparação entre especificações alternativas.
 
-Essa abordagem combinada busca aumentar a robustez das inferencias, mitigar vieses de selecao e fortalecer a interpretacao causal dos resultados.
+Essa abordagem combinada busca aumentar a robustez das inferências, mitigar vieses de seleção e fortalecer a interpretação causal dos resultados.
 
 ## Ferramentas do projeto
 
@@ -136,59 +136,30 @@ Essa abordagem combinada busca aumentar a robustez das inferencias, mitigar vies
 - Quarto
 - Git e GitHub
 
-## Boas praticas para este repositorio
+## Boas praticas para este repositório
 
-- manter `data/raw/` apenas para dados originais sem edicao manual;
+- manter `data/raw/` apenas para dados originais sem edição manual;
 - salvar scripts numerados na ordem do pipeline;
-- separar funcoes reutilizaveis na pasta `R/`;
-- registrar decisoes metodologicas em `docs/`;
+- separar funções reutilizáveis na pasta `R/`;
+- registrar decisões metodológicas em `docs/`;
 - gerar figuras e tabelas em `reports/`;
-- evitar subir arquivos pesados ou sensiveis diretamente ao GitHub.
+- evitar subir arquivos pesados ou sensíveis diretamente ao GitHub.
 
-## Proximos passos
+## Próximos passos
 
 - preencher `docs/project_scope.md` com o recorte final do TCC;
-- confirmar quais bases serao usadas alem do ENEM e do EMTI;
-- decidir a unidade de analise: aluno, escola, municipio ou estado;
-- detalhar a estrategia causal principal em `docs/research_design.md`;
+- confirmar quais bases serão usadas além do ENEM e do EMTI;
+- decidir a unidade de analise: aluno, escola, município ou estado;
+- detalhar a estratégia causal principal em `docs/research_design.md`;
 - iniciar o inventario dos dados no script `scripts/01_data_inventory.R`.
 
-## Como iniciar no GitHub
 
-Usuario GitHub:
-
-```text
-ericabernardeslanga
-```
-
-Nome sugerido para o repositorio:
-
-```text
-enem-emti-causal-tcc
-```
-
-URL esperada:
-
-```text
-https://github.com/ericabernardeslanga/enem-emti-causal-tcc
-```
-
-Comandos para publicar:
-
-```powershell
-git init
-git add .
-git commit -m "chore: estrutura inicial do projeto de TCC"
-git branch -M main
-git remote add origin https://github.com/ericabernardeslanga/enem-emti-causal-tcc.git
-git push -u origin main
-```
 
 ## Resultado esperado
 
-Ao final, este repositorio deve funcionar ao mesmo tempo como:
+Ao final, este repositório deve funcionar ao mesmo tempo como:
 
-- base tecnica e teorica;
+- base técnica e teórica;
 - trilha documentada de aprendizado em analise causal;
-- portfolio profissional em ciencia de dados aplicada a educacao;
-- vitrine de um projeto completo de pesquisa com dados publicos.
+- portfolio profissional em ciência de dados aplicada a educação;
+- vitrine de um projeto completo de pesquisa com dados públicos.
